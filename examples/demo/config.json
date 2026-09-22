@@ -1,0 +1,18 @@
+{
+  "sequenceField": "seq",
+  "operations": [
+    { "op": "validate", "field": "id", "type": "string" },
+    { "op": "validate", "field": "age", "type": "integer" },
+    { "op": "filter", "field": "age", "operator": "ge", "value": 18 },
+    { "op": "filter", "field": "active", "operator": "eq", "value": true },
+    { "op": "project", "fields": ["seq", "id", "name", "age", "city"] },
+    { "op": "rename", "from": "id", "to": "customerId" }
+  ],
+  "limits": {
+    "maxLineBytes": 65536,
+    "maxInFlight": 4,
+    "maxOutputBytes": 1048576,
+    "maxOperations": 32,
+    "maxConfigBytes": 65536
+  }
+}

@@ -1,0 +1,5 @@
+{"seq":1,"id":"a1","name":"Alice","age":30,"city":"Shanghai","active":true}
+{"seq":2,"id":"b2","name":"Bob","age":17,"city":"Beijing","active":true}
+{"seq":3,"id":"c3","name":"Carol","age":42,"city":"Shenzhen","active":false}
+{"seq":4,"id":"d4","name":"Dan","age":25,"city":"Hangzhou","active":true}
+{"seq":5,"id":"e5","name":"Eve","age":16,"city":"Chengdu","active":true}
