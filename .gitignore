@@ -3,3 +3,6 @@ obj/
 .vs/
 *.user
 *.suo
+examples/demo/output.jsonl
+examples/demo/.checkpoint.json
+examples/demo/*.tmp

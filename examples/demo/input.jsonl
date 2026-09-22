@@ -1,0 +1,5 @@
+{"id":0,"email":"ada@example.com","age":36,"country":"UK","role":"admin","note":" keep "}
+{"id":1,"email":"grace@example.com","age":31,"country":"US","role":"engineer","note":"systems"}
+{"id":2,"email":"linus@example.com","age":17,"country":"FI","role":"student","note":"underage"}
+{"id":3,"email":"mary@example.com","age":42,"country":"UK","role":"engineer","note":"compiler"}
+{"id":4,"email":"ken@example.com","age":28,"country":"JP","role":"engineer","note":"kernels"}

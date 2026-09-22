@@ -1,0 +1,15 @@
+{
+  "sequenceField": "id",
+  "maxInputLineBytes": 65536,
+  "maxInFlight": 64,
+  "maxOutputBytes": 1048576,
+  "maxOperations": 32,
+  "operations": [
+    { "op": "validate", "field": "email", "type": "string" },
+    { "op": "validate", "field": "age", "type": "number", "min": 0, "max": 150 },
+    { "op": "filter", "field": "age", "min": 18 },
+    { "op": "filter", "field": "country", "equals": "UK" },
+    { "op": "project", "fields": ["id", "email", "age", "country", "role"] },
+    { "op": "rename", "field": "email", "to": "contactEmail" }
+  ]
+}
